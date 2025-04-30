@@ -24,11 +24,11 @@ int main(){
 	
 	index = searching(angka, n, searchKey);
 	
-	if(index = -1){
+	if(index == -1){
 		printf("Data Tidak Ditemukan\n");
 	}
 	else{
-		printf("%d data ditemukan di %d", searchKey, index);
+		printf("Data %d ditemukan di indeks ke-%d", searchKey, index);
 	}
 	
 	
